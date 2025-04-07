@@ -5,7 +5,7 @@
             <property name="Hospital" scope="default" type="STRING" expression="json-eval($.hospital)"/>
             <switch source="get-property('Hospital')">
                 <case regex="grand oak community hospital">
-                    <log category="INFO" level="custom" description="Grand Oak Log">
+                    <log category="DEBUG" level="custom" description="Grand Oak Log">
                         <property name="message" expression="fn:concat('Routing to ', get-property('Hospital'))"/>
                     </log>
                     <call>
