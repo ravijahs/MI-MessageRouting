@@ -1,4 +1,5 @@
 {
     "MI.JAVA_HOME": "/usr/local/java17",
-    "MI.SERVER_PATH": "/home/ravija/Documents/wso2mi-4.4.0"
+    "MI.SERVER_PATH": "/home/ravija/Documents/wso2mi-4.4.0",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
